@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": "true",
   "license": "MIT",
-  "author": {
-    "name": "Thorsten Luenborg",
-    "url": "https://twitter.com/linus_borg"
-  },
   "main": "dist/vue2-example-library.cjs.js",
   "module": "dist/vue2-example-library.es.js",
   "exports": {

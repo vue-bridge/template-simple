@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": "true",
   "license": "MIT",
-  "author": {
-    "name": "Thorsten Luenborg",
-    "url": "https://twitter.com/linus_borg"
-  },
   "main": "dist/vue3-example-library.cjs.js",
   "module": "dist/vue3-example-library.es.js",
   "exports": {
@@ -27,15 +23,15 @@
     "lint": "eslint 'src/**/*.{vue,js}' --fix"
   },
   "dependencies": {
-    "@vue-bridge/runtime": "^0.0.4"
+    "@vue-bridge/runtime": "^0.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@linusborg/eslint-config": "^0.1.1",
     "@vitejs/plugin-vue": "^1.2.4",
-    "@vue-bridge/eslint-config": "^0.0.2",
-    "@vue-bridge/testing": "^0.0.2",
+    "@vue-bridge/eslint-config": "^0.0.3",
+    "@vue-bridge/testing": "^0.0.3",
     "@vue/compiler-sfc": "^3.2.0",
     "@vue/test-utils": "^2.0.0-rc.14",
     "babel-jest": "^26.0.6",
