@@ -1,7 +1,9 @@
 import { defineConfig } from "vite";
 import { createVuePlugin as vue } from "vite-plugin-vue2";
 
-// https://vitejs.dev/config/
+/**
+ * @type {import('vite').UserConfig}
+ */
 export default defineConfig({
   plugins: [vue()],
   resolve: {
@@ -10,6 +12,8 @@ export default defineConfig({
     },
   },
   build: {
+    // uncomment this line to bundle into the vue3 package's dist folder
+    //outDir: '../dist/vue2',
     lib: {
       entry: "../src/main.js",
       name: "Vue2ExampleLib",
