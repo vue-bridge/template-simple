@@ -22,8 +22,8 @@
   ],
   "scripts": {
     "dev": "vite build --watch",
-    "build": "vite build",
-    "test": "jest --config ./jest.config.js --runInBand"
+    "build": "vite build && cd vue2 && yarn build",
+    "test": "jest --config ./jest.config.js --runInBand && cd vue2 && yarn test"
   },
   "dependencies": {
     "@vue-bridge/runtime": "^0.0.4"
