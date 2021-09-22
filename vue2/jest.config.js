@@ -1,25 +1,26 @@
-const esModules = ["lodash-es"].join("|");
+// const esModules = ["lodash-es"].join("|");
 
+/**
+ * @type {import('@jest/types').Config.InitialOptions }
+ */
 const config = {
-  rootDir: process.cwd(),
+  preset: "../jest.config.js",
+
+  // include parent src folder in test file lookup
   roots: ["<rootDir>/../src"],
-  testEnvironment: "jsdom",
+
   moduleNameMapper: {
-    // we need to tell jest which Vue2 packages to use
+    // use local Vue2
     "^vue$": "<rootDir>/node_modules/vue",
+    // use local Vue2-compatible Test-Utils
     "@vue/test-utils": "<rootDir>/node_modules/@vue/test-utils",
+    // use local vue-demi version
     "vue-demi": "<rootDir>/node_modules/vue-demi",
   },
   transform: {
+    // use local Vue2-compatible version of vue-jest
     "^.+\\.vue$": "<rootDir>/node_modules/vue-jest",
-    "^.+\\js$": "babel-jest",
   },
-  moduleFileExtensions: ["vue", "js", "json", "jsx", "ts", "tsx"],
-  testMatch: ["**/__tests__/**/*.spec.[jt]s?(x)"],
-  transformIgnorePatterns: [
-    `/node_modules/(?!${esModules})`,
-    "\\.pnp\\.[^\\/]+$",
-  ],
 };
 
 module.exports = config;
