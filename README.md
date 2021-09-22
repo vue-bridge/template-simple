@@ -1,4 +1,4 @@
-# example-library
+# Simple Example Setup using `@vue-bridge` packages
 
 This is an example library using:
 
@@ -6,4 +6,6 @@ This is an example library using:
 *  `@vue-bridge/eslint-config`
 *  `@vue-bridge/testing`
 
-It exports a few components, targeted at and built for Vue 3, but written cross-compatible. it's source code, including tests, are re-used in `example-library-vue2` to build and test the same source for Vue 2.
+It builds and tests a Vue library with a few siple components, targeting Vue 3, but written cross-compatible. 
+
+It's source code, including tests, are re-used in `./vue2` to build and test the same source for Vue 2.
