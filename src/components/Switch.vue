@@ -22,10 +22,18 @@ export default defineComponent({
 </script>
 <template>
   <div>
-    <button @click="toggle = !toggle">Toggle Transition</button>
-    <br />
-    <transition name="fade" mode="out-in">
-      <component :is="component" :key="toggle ? 'a' : 'b'" />
+    <button @click="toggle = !toggle">
+      Toggle Transition
+    </button>
+    <br>
+    <transition
+      name="fade"
+      mode="out-in"
+    >
+      <component
+        :is="component"
+        :key="toggle ? 'a' : 'b'"
+      />
     </transition>
   </div>
 </template>

@@ -7,10 +7,10 @@ export default defineComponent({
   props: {
     modelValue: {
       type: String,
+      required: true,
     },
   },
   emits: ['update:modelValue'],
-
   computed: {
     model: {
       get() {
@@ -26,7 +26,11 @@ export default defineComponent({
 <template>
   <div>
     <label for="input">
-      <input type="text" v-model="model" v-bind="$_attrs" />
+      <input
+        v-model="model"
+        type="text"
+        v-bind="$_attrs"
+      >
     </label>
   </div>
 </template>
