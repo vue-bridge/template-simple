@@ -1351,23 +1351,23 @@
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.9.0.tgz#ae458a2eaac1d06efac8d71a4427d5d742466d72"
   integrity sha512-TQB87f8baZsTZO/g7Az/dTCwV8eDxwkrP8hMl8HpwLJz/NKvmXtBqa7bYg8GKWNwqjy+pBRLdgiML+BI3HphOw==
 
-"@vue-bridge/eslint-config@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@vue-bridge/eslint-config/-/eslint-config-0.0.2.tgz#596a948f4333dc602a856820bdcfb5c7cd87ac98"
-  integrity sha512-gNYbIzmSM0Qmdbi9woaJ7B850zk5aq/bqnBllLG7WF+XjEtewK0SEQATRWeXtJS5zfbD8c7ewEXnQE0pB2LJiQ==
+"@vue-bridge/eslint-config@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@vue-bridge/eslint-config/-/eslint-config-0.0.3.tgz#5a3209526e9f42d8582968325b5790b7cc6c960a"
+  integrity sha512-olWqRqW6LlDIXhIqGjqFG3xn4s0mdduI0SI0nQpGziria1M7YdAyke37FwhyQIDr+Re13VfBMvrzGpV7WzFI+w==
 
-"@vue-bridge/runtime@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@vue-bridge/runtime/-/runtime-0.0.4.tgz#aecf935d1f77abbc8b052144c8006776642d19fc"
-  integrity sha512-iDYLQlyS//0ZGe2fjukvE0g2rlu6J84TktTooPiFMQHIoNJZqmHDn4rq+pg2hxGrQNgfCAXJylYD+GnyUeqNsg==
+"@vue-bridge/runtime@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@vue-bridge/runtime/-/runtime-0.0.5.tgz#ce368183ca6b63478c0ee9432608869ebe55777f"
+  integrity sha512-bbzoM3vF7Ic+uJlwl4pY1ZmeiP1BphleXBb0u8AmOlnkbaK3zc1AKky++s1M+VzZpKb68G8VHCCH91B5+ZDmUg==
   dependencies:
     tslib "^2.0.0"
     vue-demi "^0.11.3"
 
-"@vue-bridge/testing@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@vue-bridge/testing/-/testing-0.0.2.tgz#f073ed4e39159912d76bb4bc074f418283b68115"
-  integrity sha512-79Ap/fJ5kxrjJV0GgXwg8EEQdRPjLZbZCVsqaJRg5/y5XQYrylF4KhOI6WSMDCnMTuXMFeRRqZCVPbKuFUKzNQ==
+"@vue-bridge/testing@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@vue-bridge/testing/-/testing-0.0.3.tgz#e095640695168027e5f53502851d03988bced697"
+  integrity sha512-JR12uNvgCmIDQ7Np73x66QZOBgLHu1HklyiH+uMYTpmTgWiZD0NcRz5WLjZ/dhFSYJXMNqe78XNjBUfQ94UVuw==
   dependencies:
     typescript "^4.1.0"
     vue-demi "^0.11.3"
