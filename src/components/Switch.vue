@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import { defineComponent } from '@vue-bridge/runtime'
 import CompA from './dummys/CompA.vue'
 import CompB from './dummys/CompB.vue'
@@ -31,7 +31,7 @@ export default defineComponent({
       mode="out-in"
     >
       <component
-        :is="component"
+        :is="component as unknown as string"
         :key="toggle ? 'a' : 'b'"
       />
     </transition>

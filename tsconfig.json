@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+
+    "declaration": true,
+    "declarationDir": "typings"
+  },
+  "include": ["src/**/*.{ts,tsx,js,jsx,vue}", "vue2/src/**/*.d.ts", "vue2/*.{js,ts}", "*.{js,ts}"]
+}
