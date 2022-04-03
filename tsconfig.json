@@ -15,5 +15,5 @@
     "declaration": true,
     "declarationDir": "typings"
   },
-  "include": ["src/**/*.{ts,tsx,js,jsx,vue}", "vue2/src/**/*.d.ts", "vue2/*.{js,ts}", "*.{js,ts}"]
+  "include": ["src/**/*.{ts,js,vue}", "vue2/src/**/*.d.ts", "vue2/*.{js,ts,vue}", "*.{js,ts}"]
 }

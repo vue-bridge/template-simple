@@ -24,7 +24,7 @@ export default defineConfig({
   },
   build: buildConfig({
     name: libraryGlobalName,
-    version: "vue3",
+    version: "vue2",
   }),
   test: {
     environment: "jsdom",

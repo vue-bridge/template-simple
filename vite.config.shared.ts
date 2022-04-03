@@ -23,7 +23,7 @@ export const buildConfig = (
       formats: ["es", "cjs", "iife"],
       name: options.name, // global variable name for IIFE build
       fileName: (format) =>
-        `index.${format}.${format === "cjs" ? "cjs" : "js"}`,
+        `index.${format === "cjs" ? ".cjs" : format === "es" ?  ".mjs" : ".iife.js"}`,
     },
     rollupOptions: {
       output: {
